@@ -13,6 +13,8 @@ use Illuminate\Http\RedirectResponse;
 //import Facade "Storage"
 use Illuminate\Support\Facades\Storage;
 
+use App\Models\Post;
+
 class PostController extends Controller
 {
     /**
